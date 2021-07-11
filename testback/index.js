@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
     return res.send("Hey man!")
 });
 app.get("/login", (req, res) => {
-    return res.send("You are logged in!")
+    return res.send("You are logged  in!")
 });
 app.get("/sign-out", (req, res) => {
     return res.send("You are signed out!")
